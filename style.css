@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    margin-top:25px ;
+}
+
+.username{
+    margin: 30px;
+}
+.username input{
+    border: 2px solid  rgba(208, 208, 208, 0.45);
+    background-color: rgba(126, 123, 123, 0.178);
+    border-radius: 30px;
+    padding: 10px;
+}
+.password input{
+    border: 2px solid  rgba(208, 208, 208, 0.45);
+    background-color: rgba(126, 123, 123, 0.178);
+    border-radius: 30px;
+    padding: 10px;
+   
+}
+.container button{
+    width: 125px;
+    margin-top: 25px;
+    padding: 8px;
+    border: 1px solid rgb(0, 156, 134) ;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(0, 156, 134);
+}
+img{
+    margin-top: 50px;
+    width: 250px;
+}
+.text{
+    width: 350px;
+}
+
+.text button{
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid rgb(0, 156, 134) ;
+    background-color: rgb(0, 156, 134);
+}
+.contdark{
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+}
+.buttonDark{
+    font-size: 11px;
+    padding: 3px;
+    width: 55px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
